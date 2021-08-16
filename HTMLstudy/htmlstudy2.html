@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="content-type" content="text/html;cherset=utf-8">
+    <!--문자 인코딩-->
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <!--브라우저 호환성을 지정한다.-->
+    <meta name="Date" content="2020-08-05T10:00:00+9:00"/>
+    <!-- 날짜(제작일)-->
+    <meta http-equiv="Content-Script-type" content="text/javascript"/>
+    <!--웹 페이지에 쓰인 언어를 지정-->
+    <meta http-equiv="Subect" content="HTML header and body"/>
+    <!-- 홈페이지 주제-->
+    <!-- 위 메타데이터는 페이지 로딩시 보이지 않으나 웹 브라우저간 상호 교환되는 정보이다.-->
+    <title>HTML 구조</title>
+</head>
+<body>
+    <h1>HTML 문서의 구조</h1>
+    <ul>
+        <li>
+            <h2>header : 헤더</h2>
+            <ul>
+                header 에는 브라우저에서 랜더링 되지 않는 여러 개의 HTML요소들을 포함 할 수 있다.
+                <li>meta tag :데이터를 설명하는 데이터 문자를 인코딩 하거나, 호환성 지정 등 랜더링시 옵션을 표기, 전송</li>
+                <li>title : 제목을 설정한다.</li>
+                <li>css, javascript와 같은 외부 리소스에서정보를 가져온다.</li>
+            </ul>
+        </li>
+        <li>
+            <h2>body : 브라우저에 의해 랜더링 되는 파일의 <b>모든</b> 내용을 포함하는 파일의 기본 색션이다.</h2>
+            <p>
+                텍스트, 이미지, 색상, 그래픽 등과 같은 여러 유형의 정보가 포함될 수 있고,<br>
+                 오디오 및 비디오 요소는 브라우저에서 렌더링하기 위해 html 본문에 포함될 수도 있다. <br>
+                 시각적 표현을 위한 최신 스타일 시트 응용 프로그램이 있는 경우(CSS)<br>
+            </p>
+        </li>
+    </ul>
+    <h1>주석</h1>
+    <p>
+        주석 또는 코멘트는 프로그래밍에 있어 내용을 메모하는목적으로 쓰인다. <br>
+        소스 코드를 좀더 쉽게 이해 할 수 있게 만드는 것이 주 목적이며, <b>협업할 대 유용히 쓰인다. </b><br>
+        컴파일러와 인터프리터에 의해 일반적으로 무시되어 프로그램에 영향을 주지 않는다.<br>
+        <!--주석 처리된 내용은 랜더링 되지 않아 웹어서는 볼 수 없다. 코드에대한 설명을 추가함으로서 코드에대한 이해도를
+        높이는 용도로 사용되기도 한다. 하지만 브라우저의 F12 를눌러 콘솔창을 키면 내부 HTML구조를 볼 수 있는데 이떄는 주석을
+        볼 수 있기때문에 민감한 정보는 넣으면 안된다.-->
+        comment : &lt;!--주석 처리할 내용--&gt; <br>
+    </p>
+    <a href="./htmlstudytag.html">HTML Tag</a>
+</body>
+</html>

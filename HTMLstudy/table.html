@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Table tag</h1>
+table 태그는 데이터를 포함하는 셀들의 행과 열로 구성된 2차원테이블을 정의 할 때 사용한다. <br>
+이러한 테이블은 table요소와 자식요소인 하나의 td ,tr ,th 요소들로 구성된다. + caption <br>
+ tr (table row) : 가로줄을 만드는 역할, 기본값으로 굵은 글씨체, 중앙정렬<br>
+ <ul>
+     <li> th (table head) : 표의 제목을 쓰는 역할, 보통 글씨체, 왼쪽 정렬</li>
+     <li>td (table data) : cell 을 만드는 역할 , 보통 글씨체, 왼쪽 정렬</li>
+     <li>caption : 테이블의 제목이나 설명을 작성하는태그, 태이블의 가로폭의 가운데로 오는것이 기본값이다.</li>
+
+ </ul>
+
+ <ul>
+     <li>width : 테이블의 너비설정</li>
+     <li>heigth : 테이블의 높이 설정</li>
+     <li>border : 테두리 설정</li>
+     <li>bordercolor : 테두리 색상 설정</li>
+     <li>cellspacing : 데이터가 담기는 셀과 셀 간의 간격 설정</li>
+     <li>cellpadding : 데이터가 담기는 셀안의 컨텐츠와 테두리 사이의 간격 설정</li>
+     <li>bgcolor : 배경색</li>
+    
+ 
+ <table  border="1" width ="400px" height="180px"  cellspacing="0">
+    <caption>기본 테이블 만들기</caption>
+     <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+<tbody>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<br>
+<br><br>
+<table border="1" width ="500px" height="400px"  cellspacing="0">
+    <caption> 병합 </caption>
+    <tr>
+        <td colspan="3"></td>
+        <td></td>
+     
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
